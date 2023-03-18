@@ -1,0 +1,20 @@
+/* table */
+.table {
+  color: #ffffff;
+}
+.table thead th tr {
+  background: #953659;
+}
+.left-side h2 {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 600px;
+  color: #ffae02;
+}
+.left-side,
+.right-side {
+  border-radius: 10px;
+}
+.tableContainer {
+  background-color: #ac00a5;
+}

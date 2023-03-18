@@ -1,3 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+body,
+html {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+}
+.hero h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 55px;
+  line-height: 82px;
+  color: #ffffff;
+}
 .App {
   text-align: center;
 }
@@ -12,7 +30,35 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+/* NavBar CSS Start */
 
+.logo {
+  height: 94px;
+  width: 110px;
+}
+.nav li .nav-link {
+  text-decoration: none;
+  color: #5c3f93;
+}
+.nav {
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* NavBar CSS Ends */
+/*  */
+/* Buttons Styling start */
+.btn-nav {
+  background-color: #5c3f93;
+  color: #ffffff;
+}
+
+.btnhro {
+  background-color: #ffae02;
+  color: #ffffff;
+}
+/* button styling ends */
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -27,6 +73,24 @@
 .App-link {
   color: #61dafb;
 }
+/* Sec 1 Start */
+.note {
+  height: 74px;
+  border-radius: 10px;
+  border: 1px solid #ffae021a;
+  background: rgba(172, 0, 165, 0.42);
+}
+/* Sec 1 ends */
+/* WHAT IS ETA Start */
+.left-side {
+  background: linear-gradient(
+      0deg,
+      rgba(172, 0, 165, 0.42),
+      rgba(172, 0, 165, 0.42)
+    ),
+    linear-gradient(0deg, rgba(255, 174, 2, 0.1), rgba(255, 174, 2, 0.1));
+}
+/* WHAT IS ETA Ends */
 
 @keyframes App-logo-spin {
   from {
